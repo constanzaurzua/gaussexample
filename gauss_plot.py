@@ -37,6 +37,7 @@ xtick_labels = (r"$\mu - 3 \sigma$",
                 r"$\mu + 3 \sigma$")
 
 fig = plt.figure(1, figsize=(6, 4))
+plt.clf()
 ax = fig.add_subplot(111)
 
 ax.axhline(0, color='k')
@@ -54,6 +55,7 @@ ax.set_xlim(-4, 4)
 ax.set_ylim(-0.1, 1.1)
 
 ax.text(0, 0.4, '68%', fontsize=12, color='w', va='center', ha='center')
+plt.text(-2,1,'Constanza Urzua urzuacisterna@gmail.com')
 
 fig.subplots_adjust(bottom=0.30)
 
